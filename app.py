@@ -3,8 +3,8 @@ import streamlit as st
 from datetime import date
 
 APP_TITLE = "Timmerman Constraint Finder"
-VERSION = "Vcc1.2"
-DATA_FILE = "timmerman_constraints_vcc.csv"
+VERSION = "Vcc1.3"
+DATA_FILE = "timmerman_constraints.csv"
 DISCLAIMER = (
     "Disclaimer: This tool is provided for reference and convenience only. "
     "It does not replace clinical judgment, institutional policies, or peer review. "
@@ -16,9 +16,15 @@ st.set_page_config(page_title=APP_TITLE, layout="wide")
 @st.cache_data
 def load_data():
     df = pd.read_csv(DATA_FILE)
-    df["Contouring instructions"] = df["Contouring instructions"].fillna("Not given")
-    df["Tissue"] = df["Tissue"].astype(str).str.strip()
+    # Normalize types
+    df["Fractions"] = pd.to_numeric(df["Fractions"], errors="coerce").astype("Int64")
     df["Type"] = df["Type"].astype(str).str.strip()
+    df["Tissue"] = df["Tissue"].astype(str).str.strip()
+    df["Contouring instructions"] = df["Contouring instructions"].fillna("Not given")
+    # Remove known non-OAR lines that were captured from the paper (footnotes / abbreviations)
+    df = df[~df["Tissue"].str.startswith("*", na=False)]
+    df = df[~df["Tissue"].str.contains("Abbreviations", case=False, na=False)]
+    df = df[df["Tissue"].str.strip() != ""]
     return df
 
 df = load_data()
@@ -33,28 +39,20 @@ with col2:
 
 st.divider()
 
-fractions = sorted(df["Fractions"].dropna().unique().tolist())
+fractions = sorted([int(x) for x in df["Fractions"].dropna().unique().tolist()])
 fraction = st.selectbox("How many fractions?", options=fractions, index=fractions.index(3) if 3 in fractions else 0)
 
-# Correct logic: always include parallel organs
-df_serial = df[(df["Fractions"] == fraction) & (df["Type"].str.lower() == "serial")]
-df_parallel = df[df["Type"].str.lower() == "parallel"]
-df_fx = pd.concat([df_serial, df_parallel], ignore_index=True)
+# Filter by selected fraction FIRST (this keeps constraints table-specific)
+df_fx = df[df["Fractions"] == fraction].copy()
 
-# Radio filter AFTER merge
+# Apply radio filter (All means do nothing)
 type_filter = st.radio("Show", options=["All", "Serial only", "Parallel only"], horizontal=True)
 if type_filter == "Serial only":
     df_fx = df_fx[df_fx["Type"].str.lower() == "serial"]
 elif type_filter == "Parallel only":
     df_fx = df_fx[df_fx["Type"].str.lower() == "parallel"]
 
-# Remove footnotes and non-organ entries
-df_fx = df_fx[
-    ~df_fx["Tissue"].str.contains("Abbreviations", case=False, na=False) &
-    ~df_fx["Tissue"].str.startswith("*", na=False)
-]
-df_fx = df_fx[df_fx["Tissue"].str.strip() != ""]
-
+# OAR dropdown
 oars = sorted(df_fx["Tissue"].dropna().unique().tolist())
 oar = st.selectbox("Select OAR / Structure", options=oars)
 
