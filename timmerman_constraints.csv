@@ -1,0 +1,324 @@
+Fractions,Table,Type,Tissue,Contouring instructions,Volume,Volume max (Gy),Max point dose (Gy),Endpoint,Key,Occ,KeyOcc
+1,Table 2,Serial,Optic pathway,,<0.2,8,10,Neuritis,1|Optic pathway,1,1|Optic pathway|1
+1,Table 2,Serial,Cochlea,,,,9,Hearing loss,1|Cochlea,1,1|Cochlea|1
+1,Table 2,Serial,Brain stem (not medulla),,<0.5,10,15,Cranial neuropathy,1|Brain stem (not medulla),1,1|Brain stem (not medulla)|1
+1,Table 2,Serial,Spinal cord and medulla,,<0.35,10,14,Myelitis,1|Spinal cord and medulla,1,1|Spinal cord and medulla|1
+1,Table 2,Serial,Cauda equina,,<5,14,16,Neuritis,1|Cauda equina,1,1|Cauda equina|1
+1,Table 2,Serial,Sacral plexus,,<5,14.4,16,Neuropathy,1|Sacral plexus,1,1|Sacral plexus|1
+1,Table 2,Serial,Esophagusᵞ,,<5,20,24,Esophagitis,1|Esophagusᵞ,1,1|Esophagusᵞ|1
+1,Table 2,Serial,Brachial plexus,,<3,13.6,16.4,Neuropathy,1|Brachial plexus,1,1|Brachial plexus|1
+1,Table 2,Serial,Peripheral (named) nerve,,<2 cm length,16,20,Neuropathy,1|Peripheral (named) nerve,1,1|Peripheral (named) nerve|1
+1,Table 2,Serial,Heart/pericardium,,<15,16,22,Pericarditis,1|Heart/pericardium,1,1|Heart/pericardium|1
+1,Table 2,Serial,Great vessels,,<10,31,37,Aneurysm,1|Great vessels,1,1|Great vessels|1
+1,Table 2,Serial,Trachea and large bronchusᵞ,,<4,27.5,30,Impairment of pulmonary toilet,1|Trachea and large bronchusᵞ,1,1|Trachea and large bronchusᵞ|1
+1,Table 2,Serial,"Bronchus, smaller airways",,<0.5,17.4,20.2,Stenosis with atelectasis,"1|Bronchus, smaller airways",1,"1|Bronchus, smaller airways|1"
+1,Table 2,Serial,Rib,,<5,28,33,Pain or fracture,1|Rib,1,1|Rib|1
+1,Table 2,Serial,Skin,,<10,25.5,27.5,Ulceration,1|Skin,1,1|Skin|1
+1,Table 2,Serial,Stomach,,<5,17.4,22,Ulceration/fistula,1|Stomach,1,1|Stomach|1
+1,Table 2,Serial,Bile duct,,,,30,Stenosis,1|Bile duct,1,1|Bile duct|1
+1,Table 2,Serial,Duodenumᵞ,,<5,17.4,22,Ulceration,1|Duodenumᵞ,1,1|Duodenumᵞ|1
+1,Table 2,Serial,Jejunum/ileumᵞ,,<30,17.6,20,Enteritis/obstruction,1|Jejunum/ileumᵞ,1,1|Jejunum/ileumᵞ|1
+1,Table 2,Serial,Colonᵞ,,<20,20.5,31,Colitis/fistula,1|Colonᵞ,1,1|Colonᵞ|1
+1,Table 2,Serial,Rectumᵞ,,<3.5 / <20,30 / 23,33.7,Proctitis/fistula,1|Rectumᵞ,1,1|Rectumᵞ|1
+1,Table 2,Serial,Ureter,,,,35,Stenosis,1|Ureter,1,1|Ureter|1
+1,Table 2,Serial,Bladder wall,,<15,12,25,Cystitis/fistula,1|Bladder wall,1,1|Bladder wall|1
+1,Table 2,Serial,Penile bulb,,<3,,16,Erectile dysfunction,1|Penile bulb,1,1|Penile bulb|1
+1,Table 2,Serial,Femoral heads,,<10,,15,Necrosis,1|Femoral heads,1,1|Femoral heads|1
+1,Table 2,Serial,Renal hilum/vascular trunk,,,15,14,Malignant hypertension,1|Renal hilum/vascular trunk,1,1|Renal hilum/vascular trunk|1
+1,Table 2,Parallel,Lung (right and left),,1500 for males and 950 for femalesᶻ,7.2,,Basic lung function,1|Lung (right and left),1,1|Lung (right and left)|1
+1,Table 2,Parallel,Lung (right and left),,V-8 Gy,,<37%,Radiation pneumonitis,1|Lung (right and left),2,1|Lung (right and left)|2
+1,Table 2,Parallel,Liver,,700ᶻ,11.6,,Basic liver function,1|Liver,1,1|Liver|1
+1,Table 2,Parallel,Renal cortex (right and left),,200ᶻ,9.5,,Basic renal function,1|Renal cortex (right and left),1,1|Renal cortex (right and left)|1
+2,Table 3,Serial,Optic pathway,,<0.2 cm³,11.7,13.7,Neuritis,2|Optic pathway,1,2|Optic pathway|1
+2,Table 3,Serial,Cochlea,,,,11.7,Hearing loss,2|Cochlea,1,2|Cochlea|1
+2,Table 3,Serial,Brain stem (not medulla),,<0.5 cm³,13,19.1,Cranial neuropathy,2|Brain stem (not medulla),1,2|Brain stem (not medulla)|1
+2,Table 3,Serial,Spinal cord and medulla,,<0.35 cm³,13,18.3,Myelitis,2|Spinal cord and medulla,1,2|Spinal cord and medulla|1
+2,Table 3,Serial,Cauda equina,,<5 cm³,18,20.8,Neuritis,2|Cauda equina,1,2|Cauda equina|1
+2,Table 3,Serial,Sacral plexus,,<5 cm³,18.5,20.8,Neuropathy,2|Sacral plexus,1,2|Sacral plexus|1
+2,Table 3,Serial,Esophagusᵞ,,<5 cm³,24.3,28.3,Esophagitis,2|Esophagusᵞ,1,2|Esophagusᵞ|1
+2,Table 3,Serial,Brachial plexus,,<3 cm³,17.8,21.2,Neuropathy,2|Brachial plexus,1,2|Brachial plexus|1
+2,Table 3,Serial,Peripheral (named) nerve,,<2 cm length,21,25.5,Neuropathy,2|Peripheral (named) nerve,1,2|Peripheral (named) nerve|1
+2,Table 3,Serial,Heart/pericardium,,<15 cm³,20,26,Pericarditis,2|Heart/pericardium,1,2|Heart/pericardium|1
+2,Table 3,Serial,Great vessels,,<10 cm³,35,41,Aneurysm,2|Great vessels,1,2|Great vessels|1
+2,Table 3,Serial,Trachea and large bronchusᵞ,,<4 cm³,34.5,38,Impairment of pulmonary toilet,2|Trachea and large bronchusᵞ,1,2|Trachea and large bronchusᵞ|1
+2,Table 3,Serial,"Bronchus, smaller airways",,<0.5 cm³,21.6,25.1,Stenosis with atelectasis,"2|Bronchus, smaller airways",1,"2|Bronchus, smaller airways|1"
+2,Table 3,Serial,Rib,,<5 cm³,34,41.5,Pain or fracture,2|Rib,1,2|Rib|1
+2,Table 3,Serial,Skin,,<10 cm³,28.3,30.3,Ulceration,2|Skin,1,2|Skin|1
+2,Table 3,Serial,Stomach,,<5 cm³,20,26,Ulceration/fistula,2|Stomach,1,2|Stomach|1
+2,Table 3,Serial,Bile duct,,,,33,Stenosis,2|Bile duct,1,2|Bile duct|1
+2,Table 3,Serial,Duodenumᵞ,,<5 cm³,20,26,Ulceration,2|Duodenumᵞ,1,2|Duodenumᵞ|1
+2,Table 3,Serial,Jejunum/ileumᵞ,,<30 cm³,19.2,24,Enteritis/obstruction,2|Jejunum/ileumᵞ,1,2|Jejunum/ileumᵞ|1
+2,Table 3,Serial,Colonᵞ,,<20 cm³,25.8,39,Colitis/fistula,2|Colonᵞ,1,2|Colonᵞ|1
+2,Table 3,Serial,Rectumᵞ,,<3.5 cm³ / <20 cm³,38 / 26.7,41.3,Proctitis/fistula,2|Rectumᵞ,1,2|Rectumᵞ|1
+2,Table 3,Serial,Ureter,,,,37.5,Stenosis,2|Ureter,1,2|Ureter|1
+2,Table 3,Serial,Bladder wall,,<15 cm³,14.5,29,Cystitis/fistula,2|Bladder wall,1,2|Bladder wall|1
+2,Table 3,Serial,Penile bulb,,<3 cm³,,20.5,Erectile dysfunction,2|Penile bulb,1,2|Penile bulb|1
+2,Table 3,Serial,Femoral heads,,<10 cm³,,19.5,Necrosis,2|Femoral heads,1,2|Femoral heads|1
+2,Table 3,Serial,Renal hilum/vascular trunk,,15 cm³,16.8,,Malignant hypertension,2|Renal hilum/vascular trunk,1,2|Renal hilum/vascular trunk|1
+2,Table 3,Parallel,Lung (right and left),,1500 for males and 950 for femalesᶻ,9.4,,Basic lung function,2|Lung (right and left),1,2|Lung (right and left)|1
+2,Table 3,Parallel,Lung (right and left),,V-10 Gy,,<37%,Radiation pneumonitis,2|Lung (right and left),2,2|Lung (right and left)|2
+2,Table 3,Parallel,Liver,,700ᶻ,15.1,,Basic liver function,2|Liver,1,2|Liver|1
+2,Table 3,Parallel,Renal cortex (right and left),,200ᶻ,12.5,,Basic renal function,2|Renal cortex (right and left),1,2|Renal cortex (right and left)|1
+3,Table 4,Serial,Optic pathway,,<0.2 cm³,15.3,17.4,Neuritis,3|Optic pathway,1,3|Optic pathway|1
+3,Table 4,Serial,Cochlea,,,,14.4,Hearing loss,3|Cochlea,1,3|Cochlea|1
+3,Table 4,Serial,Brain stem (not medulla),,<0.5 cm³,15.9,23.1,Cranial neuropathy,3|Brain stem (not medulla),1,3|Brain stem (not medulla)|1
+3,Table 4,Serial,Spinal cord and medulla,,<0.35 cm³,15.9,22.5,Myelitis,3|Spinal cord and medulla,1,3|Spinal cord and medulla|1
+3,Table 4,Serial,Cauda equina,,<5 cm³,21.9,25.5,Neuritis,3|Cauda equina,1,3|Cauda equina|1
+3,Table 4,Serial,Sacral plexus,,<5 cm³,22.5,25.5,Neuropathy,3|Sacral plexus,1,3|Sacral plexus|1
+3,Table 4,Serial,Esophagusᵞ,,<5 cm³,27.9,32.4,Esophagitis,3|Esophagusᵞ,1,3|Esophagusᵞ|1
+3,Table 4,Serial,Brachial plexus,,<3 cm³,22,26,Neuropathy,3|Brachial plexus,1,3|Brachial plexus|1
+3,Table 4,Serial,Peripheral (named) nerve,,<2 cm length,25.5,30.6,Neuropathy,3|Peripheral (named) nerve,1,3|Peripheral (named) nerve|1
+3,Table 4,Serial,Heart/pericardium,,<15 cm³,24,30,Pericarditis,3|Heart/pericardium,1,3|Heart/pericardium|1
+3,Table 4,Serial,Great vessels,,<10 cm³,39,45,Aneurysm,3|Great vessels,1,3|Great vessels|1
+3,Table 4,Serial,Trachea and large bronchusᵞ,,<5 cm³,39,43,Impairment of pulmonary toilet,3|Trachea and large bronchusᵞ,1,3|Trachea and large bronchusᵞ|1
+3,Table 4,Serial,"Bronchus, smaller airways",,<0.5 cm³,25.8,30,Stenosis with atelectasis,"3|Bronchus, smaller airways",1,"3|Bronchus, smaller airways|1"
+3,Table 4,Serial,Rib,,<5 cm³,40,50,Pain or fracture,3|Rib,1,3|Rib|1
+3,Table 4,Serial,Skin,,<10 cm³,31,33,Ulceration,3|Skin,1,3|Skin|1
+3,Table 4,Serial,Stomach,,<5 cm³,22.5,30,Ulceration/fistula,3|Stomach,1,3|Stomach|1
+3,Table 4,Serial,Bile duct,,,,36,Stenosis,3|Bile duct,1,3|Bile duct|1
+3,Table 4,Serial,Duodenumᵞ,,<5 cm³,22.5,30,Ulceration,3|Duodenumᵞ,1,3|Duodenumᵞ|1
+3,Table 4,Serial,Jejunum/ileumᵞ,,<30 cm³,20.7,28.5,Enteritis/obstruction,3|Jejunum/ileumᵞ,1,3|Jejunum/ileumᵞ|1
+3,Table 4,Serial,Colonᵞ,,<20 cm³,28.8,45,Colitis/fistula,3|Colonᵞ,1,3|Colonᵞ|1
+3,Table 4,Serial,Rectumᵞ,,<3.5 cm³ / <20 cm³,43 / 30.3,47,Proctitis/fistula,3|Rectumᵞ,1,3|Rectumᵞ|1
+3,Table 4,Serial,Ureter,,,,40,Stenosis,3|Ureter,1,3|Ureter|1
+3,Table 4,Serial,Bladder wall,,<15 cm³,17,33,Cystitis/fistula,3|Bladder wall,1,3|Bladder wall|1
+3,Table 4,Serial,Penile bulb,,<3 cm³,,25,Erectile dysfunction,3|Penile bulb,1,3|Penile bulb|1
+3,Table 4,Serial,Femoral heads,,<10 cm³,,24,Necrosis,3|Femoral heads,1,3|Femoral heads|1
+3,Table 4,Serial,Renal hilum/vascular trunk,,15 cm³,19.5,,Malignant hypertension,3|Renal hilum/vascular trunk,1,3|Renal hilum/vascular trunk|1
+3,Table 4,Parallel,Lung (right and left),,1500 for males and 950 for femalesᶻ,10.8,,Basic lung function,3|Lung (right and left),1,3|Lung (right and left)|1
+3,Table 4,Parallel,Lung (right and left),,V-11.4 Gy,,<37%,Pneumonitis,3|Lung (right and left),2,3|Lung (right and left)|2
+3,Table 4,Parallel,Liver,,700ᶻ,17.7,,Basic liver function,3|Liver,1,3|Liver|1
+3,Table 4,Parallel,Renal cortex (right and left),,200ᶻ,14.7,,Basic renal function,3|Renal cortex (right and left),1,3|Renal cortex (right and left)|1
+4,Table 5,Serial,Optic pathway,,<0.2 cm³,19.2,21.2,Neuritis,4|Optic pathway,1,4|Optic pathway|1
+4,Table 5,Serial,Cochlea,,,,18,Hearing loss,4|Cochlea,1,4|Cochlea|1
+4,Table 5,Serial,Brain stem (not medulla),,<0.5 cm³,20.8,27.2,Cranial neuropathy,4|Brain stem (not medulla),1,4|Brain stem (not medulla)|1
+4,Table 5,Serial,Spinal cord and medulla,,<0.35 cm³,18,25.6,Myelitis,4|Spinal cord and medulla,1,4|Spinal cord and medulla|1
+4,Table 5,Serial,Cauda equina,,<5 cm³,26,28.8,Neuritis,4|Cauda equina,1,4|Cauda equina|1
+4,Table 5,Serial,Sacral plexus,,<5 cm³,26,28.8,Neuropathy,4|Sacral plexus,1,4|Sacral plexus|1
+4,Table 5,Serial,Esophagusᵞ,,<5 cm³,30.4,35.6,Esophagitis,4|Esophagusᵞ,1,4|Esophagusᵞ|1
+4,Table 5,Serial,Brachial plexus,,<3 cm³,24.8,29.6,Neuropathy,4|Brachial plexus,1,4|Brachial plexus|1
+4,Table 5,Serial,Peripheral (named) nerve,,<2 cm length,28.8,34.8,Neuropathy,4|Peripheral (named) nerve,1,4|Peripheral (named) nerve|1
+4,Table 5,Serial,Heart/pericardium,,<15 cm³,28,34,Pericarditis,4|Heart/pericardium,1,4|Heart/pericardium|1
+4,Table 5,Serial,Great vessels,,<10 cm³,43,49,Aneurysm,4|Great vessels,1,4|Great vessels|1
+4,Table 5,Serial,Trachea and large bronchusᵞ,,<5 cm³,42.4,47,Impairment of pulmonary toilet,4|Trachea and large bronchusᵞ,1,4|Trachea and large bronchusᵞ|1
+4,Table 5,Serial,"Bronchus, smaller airways",,<0.5 cm³,28.8,34.8,Stenosis with atelectasis,"4|Bronchus, smaller airways",1,"4|Bronchus, smaller airways|1"
+4,Table 5,Serial,Rib,,<5 cm³,43,54,Pain or fracture,4|Rib,1,4|Rib|1
+4,Table 5,Serial,Skin,,<10 cm³,33.6,36,Ulceration,4|Skin,1,4|Skin|1
+4,Table 5,Serial,Stomach,,<5 cm³,25,33.2,Ulceration/fistula,4|Stomach,1,4|Stomach|1
+4,Table 5,Serial,Bile duct,,,,38.4,Stenosis,4|Bile duct,1,4|Bile duct|1
+4,Table 5,Serial,Duodenumᵞ,,<5 cm³,25,33.2,Ulceration,4|Duodenumᵞ,1,4|Duodenumᵞ|1
+4,Table 5,Serial,Jejunum/ileumᵞ,,<30 cm³,22.4,31.6,Enteritis/obstruction,4|Jejunum/ileumᵞ,1,4|Jejunum/ileumᵞ|1
+4,Table 5,Serial,Colonᵞ,,<20 cm³,30.8,48.5,Colitis/fistula,4|Colonᵞ,1,4|Colonᵞ|1
+4,Table 5,Serial,Rectumᵞ,,<3.5 cm³ / <20 cm³,47.2 / 34,51.6,Proctitis/fistula,4|Rectumᵞ,1,4|Rectumᵞ|1
+4,Table 5,Serial,Ureter,,,,43,Stenosis,4|Ureter,1,4|Ureter|1
+4,Table 5,Serial,Bladder wall,,<15 cm³,18.5,35.6,Cystitis/fistula,4|Bladder wall,1,4|Bladder wall|1
+4,Table 5,Serial,Penile bulb,,<3 cm³,,27,Erectile dysfunction,4|Penile bulb,1,4|Penile bulb|1
+4,Table 5,Serial,Femoral heads,,<10 cm³,,27,Necrosis,4|Femoral heads,1,4|Femoral heads|1
+4,Table 5,Serial,Renal hilum/vascular trunk,,15 cm³,21.5,,Malignant hypertension,4|Renal hilum/vascular trunk,1,4|Renal hilum/vascular trunk|1
+4,Table 5,Parallel,Lung (right and left),,1500 for males and 950 for femalesᶻ,12,,Basic lung function,4|Lung (right and left),1,4|Lung (right and left)|1
+4,Table 5,Parallel,Lung (right and left),,V-12.8 Gy,,<37%,Pneumonitis,4|Lung (right and left),2,4|Lung (right and left)|2
+4,Table 5,Parallel,Liver,,700ᶻ,19.6,,Basic liver function,4|Liver,1,4|Liver|1
+4,Table 5,Parallel,Renal cortex (right and left),,200ᶻ,16,,Basic renal function,4|Renal cortex (right and left),1,4|Renal cortex (right and left)|1
+5,Table 6,Serial,Optic pathway,,<0.2 cm³,23,25,Neuritis,5|Optic pathway,1,5|Optic pathway|1
+5,Table 6,Serial,Cochlea,,,,22,Hearing loss,5|Cochlea,1,5|Cochlea|1
+5,Table 6,Serial,Brain stem (not medulla),,<0.5 cm³,23,31,Cranial neuropathy,5|Brain stem (not medulla),1,5|Brain stem (not medulla)|1
+5,Table 6,Serial,Spinal cord and medulla,,<0.35 cm³,22,28,Myelitis,5|Spinal cord and medulla,1,5|Spinal cord and medulla|1
+5,Table 6,Serial,Cauda equina,,<5 cm³,30,31.5,Neuritis,5|Cauda equina,1,5|Cauda equina|1
+5,Table 6,Serial,Sacral plexus,,<5 cm³,30,32,Neuropathy,5|Sacral plexus,1,5|Sacral plexus|1
+5,Table 6,Serial,Esophagusᵞ,,<5 cm³,32.5,38,Esophagitis,5|Esophagusᵞ,1,5|Esophagusᵞ|1
+5,Table 6,Serial,Brachial plexus,,<3 cm³,27,32.5,Neuropathy,5|Brachial plexus,1,5|Brachial plexus|1
+5,Table 6,Serial,Peripheral (named) nerve,,<2 cm length,31.5,38,Neuropathy,5|Peripheral (named) nerve,1,5|Peripheral (named) nerve|1
+5,Table 6,Serial,Heart/pericardium,,<15 cm³,32,38,Pericarditis,5|Heart/pericardium,1,5|Heart/pericardium|1
+5,Table 6,Serial,Great vessels,,<10 cm³,47,53,Aneurysm,5|Great vessels,1,5|Great vessels|1
+5,Table 6,Serial,Trachea and large bronchusᵞ,,<5 cm³,45,50,Impairment of pulmonary toilet,5|Trachea and large bronchusᵞ,1,5|Trachea and large bronchusᵞ|1
+5,Table 6,Serial,"Bronchus, smaller airways",,<0.5 cm³,32,40,Stenosis with atelectasis,"5|Bronchus, smaller airways",1,"5|Bronchus, smaller airways|1"
+5,Table 6,Serial,Rib,,<5 cm³,45,57,Pain or fracture,5|Rib,1,5|Rib|1
+5,Table 6,Serial,Skin,,<10 cm³,36.5,38.5,Ulceration,5|Skin,1,5|Skin|1
+5,Table 6,Serial,Stomach,,<5 cm³,26.5,35,Ulceration/fistula,5|Stomach,1,5|Stomach|1
+5,Table 6,Serial,Bile duct,,,,41,Stenosis,5|Bile duct,1,5|Bile duct|1
+5,Table 6,Serial,Duodenumᵞ,,<5 cm³,26.5,35,Ulceration,5|Duodenumᵞ,1,5|Duodenumᵞ|1
+5,Table 6,Serial,Jejunum/ileumᵞ,,<30 cm³,24,34.5,Enteritis/obstruction,5|Jejunum/ileumᵞ,1,5|Jejunum/ileumᵞ|1
+5,Table 6,Serial,Colonᵞ,,<20 cm³,32.5,52.5,Colitis/fistula,5|Colonᵞ,1,5|Colonᵞ|1
+5,Table 6,Serial,Rectumᵞ,,<3.5 cm³ / <20 cm³,50 / 37.5,55,Proctitis/fistula,5|Rectumᵞ,1,5|Rectumᵞ|1
+5,Table 6,Serial,Ureter,,,,45,Stenosis,5|Ureter,1,5|Ureter|1
+5,Table 6,Serial,Bladder wall,,<15 cm³,20,38,Cystitis/fistula,5|Bladder wall,1,5|Bladder wall|1
+5,Table 6,Serial,Penile bulb,,<3 cm³,,30,Erectile dysfunction,5|Penile bulb,1,5|Penile bulb|1
+5,Table 6,Serial,Femoral heads,,<10 cm³,,30,Necrosis,5|Femoral heads,1,5|Femoral heads|1
+5,Table 6,Serial,Renal hilum/vascular trunk,,15 cm³,23,,Malignant hypertension,5|Renal hilum/vascular trunk,1,5|Renal hilum/vascular trunk|1
+5,Table 6,Parallel,Lung (right and left),,1500 for males and 950 for femalesᶻ,12.5,,Basic lung function,5|Lung (right and left),1,5|Lung (right and left)|1
+5,Table 6,Parallel,Lung (right and left),,V-13.5 Gy,,<37%,Pneumonitis,5|Lung (right and left),2,5|Lung (right and left)|2
+5,Table 6,Parallel,Liver,,700ᶻ,21.5,,Basic liver function,5|Liver,1,5|Liver|1
+5,Table 6,Parallel,Renal cortex (right and left),,200ᶻ,17.5,,Basic renal function,5|Renal cortex (right and left),1,5|Renal cortex (right and left)|1
+8,Table 7,Serial,Optic pathway,,<0.2 cm³,27.2,29.6,Neuritis,8|Optic pathway,1,8|Optic pathway|1
+8,Table 7,Serial,Cochlea,,,,26.4,Hearing loss,8|Cochlea,1,8|Cochlea|1
+8,Table 7,Serial,Brain stem (not medulla),,<0.5 cm³,27.2,37.6,Cranial neuropathy,8|Brain stem (not medulla),1,8|Brain stem (not medulla)|1
+8,Table 7,Serial,Spinal cord and medulla,,<0.35 cm³,26.4,33.6,Myelitis,8|Spinal cord and medulla,1,8|Spinal cord and medulla|1
+8,Table 7,Serial,Cauda equina,,<5 cm³,34,38.4,Neuritis,8|Cauda equina,1,8|Cauda equina|1
+8,Table 7,Serial,Sacral plexus,,<5 cm³,34,38.4,Neuropathy,8|Sacral plexus,1,8|Sacral plexus|1
+8,Table 7,Serial,Esophagusᵞ,,<5 cm³,36.8,43.2,Esophagitis,8|Esophagusᵞ,1,8|Esophagusᵞ|1
+8,Table 7,Serial,Brachial plexus,,<3 cm³,32.8,39.2,Neuropathy,8|Brachial plexus,1,8|Brachial plexus|1
+8,Table 7,Serial,Peripheral (named) nerve,,<2 cm length,37,43,Neuropathy,8|Peripheral (named) nerve,1,8|Peripheral (named) nerve|1
+8,Table 7,Serial,Heart/pericardium,,<15 cm³,34.4,40,Pericarditis,8|Heart/pericardium,1,8|Heart/pericardium|1
+8,Table 7,Serial,Great vessels,,<10 cm³,55.2,62,Aneurysm,8|Great vessels,1,8|Great vessels|1
+8,Table 7,Serial,Trachea and large bronchusᵞ,,<5 cm³,50,56,Impairment of pulmonary toilet,8|Trachea and large bronchusᵞ,1,8|Trachea and large bronchusᵞ|1
+8,Table 7,Serial,"Bronchus, smaller airways",,<0.5 cm³,38.4,48.8,Stenosis with atelectasis,"8|Bronchus, smaller airways",1,"8|Bronchus, smaller airways|1"
+8,Table 7,Serial,Rib,,<5 cm³,50,63,Pain or fracture,8|Rib,1,8|Rib|1
+8,Table 7,Serial,Skin,,<10 cm³,43.2,45.6,Ulceration,8|Skin,1,8|Skin|1
+8,Table 7,Serial,Stomach,,<5 cm³,31.2,42,Ulceration/fistula,8|Stomach,1,8|Stomach|1
+8,Table 7,Serial,Bile duct,,,,48,Stenosis,8|Bile duct,1,8|Bile duct|1
+8,Table 7,Serial,Duodenumᵞ,,<5 cm³,31.2,42,Ulceration,8|Duodenumᵞ,1,8|Duodenumᵞ|1
+8,Table 7,Serial,Jejunum/ileumᵞ,,<30 cm³,28.8,40,Enteritis/obstruction,8|Jejunum/ileumᵞ,1,8|Jejunum/ileumᵞ|1
+8,Table 7,Serial,Colonᵞ,,<20 cm³,35.2,57.5,Colitis/fistula,8|Colonᵞ,1,8|Colonᵞ|1
+8,Table 7,Serial,Rectumᵞ,,<3.5 cm³ / <20 cm³,56 / 45,61.5,Proctitis/fistula,8|Rectumᵞ,1,8|Rectumᵞ|1
+8,Table 7,Serial,Ureter,,,,53,Stenosis,8|Ureter,1,8|Ureter|1
+8,Table 7,Serial,Bladder wall,,<15 cm³,22.4,44.8,Cystitis/fistula,8|Bladder wall,1,8|Bladder wall|1
+8,Table 7,Serial,Penile bulb,,<3 cm³,,35,Erectile dysfunction,8|Penile bulb,1,8|Penile bulb|1
+8,Table 7,Serial,Femoral heads,,<10 cm³,,35,Necrosis,8|Femoral heads,1,8|Femoral heads|1
+8,Table 7,Serial,Renal hilum/vascular trunk,,15 cm³,28,,Malignant hypertension,8|Renal hilum/vascular trunk,1,8|Renal hilum/vascular trunk|1
+8,Table 7,Parallel,Lung (right and left),,1500 for males and 950 for femalesᶻ,14.4,,Basic lung function,8|Lung (right and left),1,8|Lung (right and left)|1
+8,Table 7,Parallel,Lung (right and left),,V-15.2 Gy,,<37%,Pneumonitis,8|Lung (right and left),2,8|Lung (right and left)|2
+8,Table 7,Parallel,Liver,,700ᶻ,24.8,,Basic liver function,8|Liver,1,8|Liver|1
+8,Table 7,Parallel,Renal cortex (right and left),,200ᶻ,20,,Basic renal function,8|Renal cortex (right and left),1,8|Renal cortex (right and left)|1
+10,Table 8,Serial,Optic pathway,"One structure both sides from posterior globe, including chiasm, to proximal optic radiations",<0.5 cm³,30.6,33.1,Neuritis,10|Optic pathway,1,10|Optic pathway|1
+10,Table 8,Serial,Eye (retina),"Each side separately, entire globe",Mean dose,<26,30,Retinitis,10|Eye (retina),1,10|Eye (retina)|1
+10,Table 8,Serial,Lens,Each side separately,,,7,Cataract,10|Lens,1,10|Lens|1
+10,Table 8,Serial,"Eyelid, meibomian glands (one side)","Each side separately, upper and lower lid as 1 structure",,,21.3,Dry eye syndrome,"10|Eyelid, meibomian glands (one side)",1,"10|Eyelid, meibomian glands (one side)|1"
+10,Table 8,Serial,Lacrimal gland (one side),Each side separately,<1 cm³,14.1,23.6,Lack of tears,10|Lacrimal gland (one side),1,10|Lacrimal gland (one side)|1
+10,Table 8,Serial,Cochlea,"Each side separately, include at least 3 CT slices",<0.5 cm³,25,27,Hearing loss,10|Cochlea,1,10|Cochlea|1
+10,Table 8,Serial,Brain stem (not medulla),"Superiorly from incisura, midbrain and pons only, 1 structure",<5 cm³,32,38,Cranial neuropathy,10|Brain stem (not medulla),1,10|Brain stem (not medulla)|1
+10,Table 8,Serial,Spinal cord,Entire bony canal including at least 10 cm superior and inferior to PTV,<5 cm³,31,36,Myelitis,10|Spinal cord,1,10|Spinal cord|1
+10,Table 8,Serial,Salivary gland (one side),Each parotid gland separately,<7 cm³ / mean dose,14.1 / <17.7,21.3,Xerostomia,10|Salivary gland (one side),1,10|Salivary gland (one side)|1
+10,Table 8,Serial,Larynx,"Starting 1 cm above first appearance of true vocal cord, includes entire cord, arytenoid muscles, corniculate and arytenoid cartilages and portions of thyroid cartilage abutting these structures ending at the first appearance of the cricothyroid ligament",<3 cm³,30,45,Necrosis/edema,10|Larynx,1,10|Larynx|1
+10,Table 8,Serial,TM joint,Each side separately starting at the superior articular surface near the zygoma bone and ending at the notch at the superior part of the ramus of the mandible,<1 cm³,37.7,41.4,Inflammation,10|TM joint,1,10|TM joint|1
+10,Table 8,Serial,Cauda equina,Based on the bony limits of the spinal canal starting superiorly at the bottom of the spinal cord (typically around L2) and ending at the inferior extent of the thecal sac (typically S3),<5 cm³,35,41,Neuritis,10|Cauda equina,1,10|Cauda equina|1
+10,Table 8,Serial,Sacral plexus,"Outlining the space defined medially by the sacral foramina from S1-S3, including contouring within the sacral foramina, posteriorly along the limits of the true pelvis, laterally to 2-3 cm lateral to the sacral foramina, and anteriorly about 3-5 mm from the posterior limits of the contour",<5 cm³,35,41,Neuropathy,10|Sacral plexus,1,10|Sacral plexus|1
+10,Table 8,Serial,Esophagus,"Include the mucosal, submucosa, and all muscular layers out to the fatty adventitia at least 10 cm superior and inferior to PTV",<5 cm³,40,48,Esophagitis,10|Esophagus,1,10|Esophagus|1
+10,Table 8,Serial,Brachial plexus,Each side separately from the spinal nerves exiting the neuroforamina from around C5 to T2 to include only the major trunks of the brachial plexus using the subclavian and axillary vessels as a surrogate for identifying its location extending proximally at the bifurcation of the brachiocephalic trunk into the jugular/subclavian veins (or carotid/subclavian arteries) and following along the route of the subclavian vein to the axillary vein ending after the neurovascular structures cross the second rib,<3 cm³,37,43,Neuropathy,10|Brachial plexus,1,10|Brachial plexus|1
+10,Table 8,Serial,Heart/pericardium,Contoured along with the pericardial sac; the superior aspect (or base) for purposes of contouring will begin at the level of the inferior aspect of the aortic arch (aorto-pulmonary window) and extend inferiorly to the apex of the heart,<15 cm³,36.6,42.5,Pericarditis,10|Heart/pericardium,1,10|Heart/pericardium|1
+10,Table 8,Serial,Great vessels,The wall and lumen of the named vessel at least 10 cm superior and inferior to PTV,<10 cm³,55.7,62.9,Aneurysm,10|Great vessels,1,10|Great vessels|1
+10,Table 8,Serial,Trachea and large bronchus,Contour the trachea and cartilage rings starting 10 cm superior to the PTV and extending inferior to the bronchi ending at the first bifurcation of the named lobar bronchus,<5 cm³,52,59,Impairment of pulmonary toilet,10|Trachea and large bronchus,1,10|Trachea and large bronchus|1
+10,Table 8,Serial,Skin,The outer 0.5 cm of the body surface anywhere within the whole-body contour.,<10 cm³,46.3,48.9,Ulceration,10|Skin,1,10|Skin|1
+10,Table 8,Serial,Stomach,The entire stomach wall and the gastric contents included from the GE junction to the proximal duodenum at the pyloris,<50 cm³,33.9,45,Ulceration/fistula,10|Stomach,1,10|Stomach|1
+10,Table 8,Serial,Duodenum,The entire duodenal wall and lumen from the pyloris to the duodenojejunal flexure,<5 cm³,33.9,45,Ulceration,10|Duodenum,1,10|Duodenum|1
+10,Table 8,Serial,Jejunum/ileum,Any and all loops of small bowel as 1 structure within 10 cm of the PTV in any direction.,<120 cm³,33.9,41,Enteritis/obstruction,10|Jejunum/ileum,1,10|Jejunum/ileum|1
+10,Table 8,Serial,Renal hilum/vascular trunk,"Each side separately, including major calyces, renal pelvis, and proximal renal artery medial to the aorta",15 cm³,30.7,,Malignant hypertension,10|Renal hilum/vascular trunk,1,10|Renal hilum/vascular trunk|1
+10,Table 8,Serial,Colon,"One structure, including wall and contents of lumen starting 10 cm superior to PTV and ending 10 cm below PTV",<20 cm³,47,60,Colitis/fistula,10|Colon,1,10|Colon|1
+10,Table 8,Serial,Rectum (including stool),"One structure, including wall of rectum and all contents in lumen; start contouring 10 cm superior to PTV and then inferior to anal sphincter",<10 / <20 / <30 / <40 cm³,52 / 49 / 46 / 43,65,Proctitis/fistula,10|Rectum (including stool),1,10|Rectum (including stool)|1
+10,Table 8,Serial,Bladder (with urine),Contour the bladder wall and all urine ending inferiorly at the base of the prostate,<90 / <125 cm³,48 / 45,53,Cystitis/fistula,10|Bladder (with urine),1,10|Bladder (with urine)|1
+10,Table 8,Serial,Bladder (suprapubic wall),Contour the anterior inferior wall resting above and around the superior aspect of the pubic bone starting at the prostate inferiorly and extending 2-3 cm superiorly from there,<5 cm³,23,42,Dysuria,10|Bladder (suprapubic wall),1,10|Bladder (suprapubic wall)|1
+10,Table 8,Serial,Penile bulb,Contour starting superiorly at the inferior aspect of the pelvic diaphragm (urethral sphincter) and extending inferiorly and anteriorly up to 3 cm,<3 cm³,38,44,Erectile dysfunction,10|Penile bulb,1,10|Penile bulb|1
+10,Table 8,Serial,Femoral heads,Contour both right and left separately,<10 cm³,38,43.5,Necrosis,10|Femoral heads,1,10|Femoral heads|1
+10,Table 8,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",1500 for males and 950 for females*,15,,Basic lung function,10|Lung (right and left) minus GTV,1,10|Lung (right and left) minus GTV|1
+10,Table 8,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",V-16 Gy,,<37%,Pneumonitis,10|Lung (right and left) minus GTV,2,10|Lung (right and left) minus GTV|2
+10,Table 8,Parallel,Liver minus GTV,"Contour right and left lobes as 1 structure, including all parenchymal liver tissue but excluding the GTV and major draining ducts, extrahepatic portal vein, and gall bladder",700 cm³*,27,,Basic liver function,10|Liver minus GTV,1,10|Liver minus GTV|1
+10,Table 8,Parallel,Renal cortex (right and left),"Contour right and left kidney as 1 structure, including all parenchymal capsular tissue but excluding the renal hilum/vascular trunk (see above)",200 cm³*,21,,Basic renal function,10|Renal cortex (right and left),1,10|Renal cortex (right and left)|1
+10,Table 8,Parallel,Notes / Footnotes,,,,,,10|Notes / Footnotes,1,10|Notes / Footnotes|1
+10,Table 8,Parallel,"* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",,,,,,"10|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",1,"10|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.|1"
+10,Table 8,Parallel,Abbreviations: CT = computed tomography; GE = gastroesophageal; GTV = gross target volume; PTV = planning target volume; TM = temporomandibular.,,,,,,10|Abbreviations: CT = computed tomography; GE = gastroesophageal; GTV = gross target volume; PTV = planning target volume; TM = temporomandibular.,1,10|Abbreviations: CT = computed tomography; GE = gastroesophageal; GTV = gross target volume; PTV = planning target volume; TM = temporomandibular.|1
+15,Table 9,Serial,Optic pathway,"One structure both sides from posterior globe, including chiasm, to proximal optic radiations",<0.5 cm³,39,42,Neuritis,15|Optic pathway,1,15|Optic pathway|1
+15,Table 9,Serial,Eye (retina),"Each side separately, entire globe",Mean dose,<33,37.5,Retinitis,15|Eye (retina),1,15|Eye (retina)|1
+15,Table 9,Serial,Lens,Each side separately,,,9,Cataract,15|Lens,1,15|Lens|1
+15,Table 9,Serial,"Eyelid, meibomian glands (one side)","Each side separately, upper and lower lid as one structure",,,27,Dry eye syndrome,"15|Eyelid, meibomian glands (one side)",1,"15|Eyelid, meibomian glands (one side)|1"
+15,Table 9,Serial,Lacrimal gland (one side),Each side separately,<1 cm³,18,30,Lack of tears,15|Lacrimal gland (one side),1,15|Lacrimal gland (one side)|1
+15,Table 9,Serial,Cochlea,"Each side separately, include at least 3 CT slices",<0.5 cm³,30,33,Hearing loss,15|Cochlea,1,15|Cochlea|1
+15,Table 9,Serial,Brain stem (not medulla),"Superiorly from incisura, midbrain and pons only, 1 structure",<5 cm³,40,44,Cranial neuropathy,15|Brain stem (not medulla),1,15|Brain stem (not medulla)|1
+15,Table 9,Serial,Spinal cord,Entire bony canal including at least 10 cm superior and inferior to PTV,<5 cm³,39,42.0,Myelitis,15|Spinal cord,1,15|Spinal cord|1
+15,Table 9,Serial,Salivary gland (one side),Each parotid gland separately,<7 cm³ / mean dose,18 / <22.5,27,Xerostomia,15|Salivary gland (one side),1,15|Salivary gland (one side)|1
+15,Table 9,Serial,Larynx,"Starting 1 cm above first appearance of true vocal cord, include entire cord, arytenoid muscles, corniculate and arytenoid cartilages, and portions of thyroid cartilage abutting these structures ending at the first appearance of the cricothyroid ligament",<3 cm³,34.5,52.5,Necrosis/edema,15|Larynx,1,15|Larynx|1
+15,Table 9,Serial,TM joint,Each side separately starting at the superior articular surface near the zygoma bone and ending at the notch at the superior part of the ramus of the mandible,<1 cm³,48,52.5,Inflammation,15|TM joint,1,15|TM joint|1
+15,Table 9,Serial,Cauda equina,Based on the bony limits of the spinal canal starting superiorly at the bottom of the spinal cord (typically around L2) and ending at the inferior extent of the thecal sac (typically S3),<5 cm³,40.5,48,Neuritis,15|Cauda equina,1,15|Cauda equina|1
+15,Table 9,Serial,Sacral plexus,"Outlining the space defined medially by the sacral foramina from S1-S3, including contouring within the sacral foramina, posteriorly along the limits of the true pelvis, laterally to 2-3 cm lateral to the sacral foramina, and anteriorly about 3-5 mm from the posterior limits of the contour",<5 cm³,40.5,48,Neuropathy,15|Sacral plexus,1,15|Sacral plexus|1
+15,Table 9,Serial,Esophagus,"Include the mucosal, submucosa, and all muscular layers out to the fatty adventitia at least 10 cm superior and inferior to PTV",<5 cm³,45,54,Esophagitis,15|Esophagus,1,15|Esophagus|1
+15,Table 9,Serial,Brachial plexus,"Each side separately from the spinal nerves exiting the neuroforamina from around C5 to T2 to include only the major trunks of the brachial plexus using the subclavian and axillary vessels as a surrogate for identifying its location, extending proximally at the bifurcation of the brachiocephalic trunk into the jugular/subclavian veins (or carotid/subclavian arteries) and following along the route of the subclavian vein to the axillary vein ending after the neurovascular structures cross the second rib",<3 cm³,48,52.5,Neuropathy,15|Brachial plexus,1,15|Brachial plexus|1
+15,Table 9,Serial,Heart/pericardium,Contoured along with the pericardial sac; the superior aspect (or base) for purposes of contouring will begin at the level of the inferior aspect of the aortic arch (aorto-pulmonary window) and extend inferiorly to the apex of the heart,<15 cm³,42,48.9,Pericarditis,15|Heart/pericardium,1,15|Heart/pericardium|1
+15,Table 9,Serial,Great vessels,The wall and lumen of the named vessel at least 10 cm superior and inferior to PTV,<10 cm³,57,65,Aneurysm,15|Great vessels,1,15|Great vessels|1
+15,Table 9,Serial,Trachea and large bronchus,"Contour the trachea and cartilage rings starting 10 cm superior to the PTV, extending inferiorly to the bronchi, ending at the first bifurcation of the named lobar bronchus",<5 cm³,55.5,63,Impairment of pulmonary toilet,15|Trachea and large bronchus,1,15|Trachea and large bronchus|1
+15,Table 9,Serial,Skin,The outer 0.5 cm of the body surface anywhere within the whole body contour,<10 cm³,54,57,Ulceration,15|Skin,1,15|Skin|1
+15,Table 9,Serial,Stomach,The entire stomach wall and the gastric contents included from the GE junction to the proximal duodenum at the pyloris,<50 cm³,39,51,Ulceration/fistula,15|Stomach,1,15|Stomach|1
+15,Table 9,Serial,Duodenum,The entire duodenal wall and lumen from the pyloris to the duodenojejunal flexure,<5 cm³,39,51,Ulceration,15|Duodenum,1,15|Duodenum|1
+15,Table 9,Serial,Jejunum/ileum,Any and all loops of small bowel as one structure within 10 cm of the PTV in any direction,<120 cm³,39,46.5,Enteritis/obstruction,15|Jejunum/ileum,1,15|Jejunum/ileum|1
+15,Table 9,Serial,Renal hilum/vascular trunk,"Each side separately, including major calyces, renal pelvis, and proximal renal artery medially to the aorta",15 cm³,37.5,,Malignant hypertension,15|Renal hilum/vascular trunk,1,15|Renal hilum/vascular trunk|1
+15,Table 9,Serial,Colon,"One structure, including wall and contents of lumen starting 10 cm superior to PTV and ending 10 cm below PTV",<20 cm³,47,64.5,Colitis/fistula,15|Colon,1,15|Colon|1
+15,Table 9,Serial,Rectum (including stool),"One structure, including wall of rectum and all contents in lumen; start contouring 10 cm superior to PTV then inferior to anal sphincter",<10 / <20 / <30 / <40 cm³,60 / 57 / 52.5 / 49.5,70.5,Proctitis/fistula,15|Rectum (including stool),1,15|Rectum (including stool)|1
+15,Table 9,Serial,Bladder (with urine),Contour the bladder wall and all urine ending inferiorly at the base of the prostate,<90 / <125 cm³,55.5 / 52.5,61.5,Cystitis/fistula,15|Bladder (with urine),1,15|Bladder (with urine)|1
+15,Table 9,Serial,Bladder (suprapubic wall),Contour the anterior inferior wall resting above and around the superior aspect of the pubic bone starting at the prostate inferiorly and extending 2-3 cm superiorly from there,<5 cm³,26,48,Dysuria,15|Bladder (suprapubic wall),1,15|Bladder (suprapubic wall)|1
+15,Table 9,Serial,Penile bulb,Contour starting superiorly at the inferior aspect of the pelvic diaphragm (urethral sphincter) and extending inferiorly and anteriorly up to 3 cm,<3 cm³,42,48,Erectile dysfunction,15|Penile bulb,1,15|Penile bulb|1
+15,Table 9,Serial,Femoral heads,Contour both right and left separately,<10 cm³,40,46.5,Necrosis,15|Femoral heads,1,15|Femoral heads|1
+15,Table 9,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",1500 for males and 950 for females*,16.5,,Basic lung function,15|Lung (right and left) minus GTV,1,15|Lung (right and left) minus GTV|1
+15,Table 9,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",V-18 Gy,,<37%,Pneumonitis,15|Lung (right and left) minus GTV,2,15|Lung (right and left) minus GTV|2
+15,Table 9,Parallel,Liver minus GTV,"Contour right and left lobes as 1 structure, including all parenchymal liver tissue but excluding the GTV and major draining ducts, extrahepatic portal vein, and gall bladder",700*,30,,Basic liver function,15|Liver minus GTV,1,15|Liver minus GTV|1
+15,Table 9,Parallel,Renal cortex (right and left),"Contour right and left kidney as 1 structure, including all parenchymal capsular tissue but excluding the renal hilum/vascular trunk (see above)",200*,24,,Basic renal function,15|Renal cortex (right and left),1,15|Renal cortex (right and left)|1
+15,Table 9,Parallel,Notes / Footnotes,,,,,,15|Notes / Footnotes,1,15|Notes / Footnotes|1
+15,Table 9,Parallel,"* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",,,,,,"15|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",1,"15|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.|1"
+15,Table 9,Parallel,Abbreviations: CT = computed tomography; GTV = gross target volume; PTV = planning target volume.,,,,,,15|Abbreviations: CT = computed tomography; GTV = gross target volume; PTV = planning target volume.,1,15|Abbreviations: CT = computed tomography; GTV = gross target volume; PTV = planning target volume.|1
+20,Table 10,Serial,Optic pathway,"One structure both sides from posterior globe, including chiasm, to proximal optic radiations",<0.5 cm³,42,48,Neuritis,20|Optic pathway,1,20|Optic pathway|1
+20,Table 10,Serial,Eye (retina),"Each side separately, entire globe",Mean dose,<36,42,Retinitis,20|Eye (retina),1,20|Eye (retina)|1
+20,Table 10,Serial,Lens,Each side separately,,,10,Cataract,20|Lens,1,20|Lens|1
+20,Table 10,Serial,"Eyelid, meibomian glands (one side)","Each side separately, upper and lower lid as 1 structure",,,30,Dry eye syndrome,"20|Eyelid, meibomian glands (one side)",1,"20|Eyelid, meibomian glands (one side)|1"
+20,Table 10,Serial,Lacrimal gland (one side),Each side separately,<1 cm³,18,32,Lack of tears,20|Lacrimal gland (one side),1,20|Lacrimal gland (one side)|1
+20,Table 10,Serial,Cochlea,"Each side separately, include at least 3 CT slices",<0.5 cm³,32,36,Hearing loss,20|Cochlea,1,20|Cochlea|1
+20,Table 10,Serial,Brain stem (not medulla),"Superiorly from incisura, midbrain and pons only, 1 structure",<5 cm³,44,50,Cranial neuropathy,20|Brain stem (not medulla),1,20|Brain stem (not medulla)|1
+20,Table 10,Serial,Spinal cord and medulla,For medulla: starting at inferior pons to foramen magnum; for cord: entire bony canal including at least 10 cm superior and inferior to PTV,<5 cm³,42,46,Myelitis,20|Spinal cord and medulla,1,20|Spinal cord and medulla|1
+20,Table 10,Serial,Salivary gland (one side),Each parotid gland separately,<7 cm³ / mean dose,18 / <24,30,Xerostomia,20|Salivary gland (one side),1,20|Salivary gland (one side)|1
+20,Table 10,Serial,Larynx,"Starting 1 cm above first appearance of true vocal cord, include entire cord, arytenoid muscles, corniculate and arytenoid cartilages, and portions of thyroid cartilage abutting these structures, ending at the first appearance of the cricothyroid ligament",<3 cm³,36,58,Necrosis/edema,20|Larynx,1,20|Larynx|1
+20,Table 10,Serial,TM joint,Each side separately starting at the superior articular surface near the zygoma bone and ending at the notch at the superior part of the ramus of the mandible,<1 cm³,52,58,Inflammation,20|TM joint,1,20|TM joint|1
+20,Table 10,Serial,Cauda equina,"Based on the bony limits of the spinal canal, starting superiorly at the bottom of the spinal cord (typically around L2) and ending at the inferior extent of the thecal sac (typically S3)",<5 cm³,44,52,Neuritis,20|Cauda equina,1,20|Cauda equina|1
+20,Table 10,Serial,Sacral plexus,"Outlining the space defined medially by the sacral foramina from S1-S3, including contouring within the sacral foramina, posteriorly along the limits of the true pelvis, laterally to 2-3 cm lateral to the sacral foramina, and anteriorly about 3-5 mm from the posterior limits of the contour",<5 cm³,44,52,Neuropathy,20|Sacral plexus,1,20|Sacral plexus|1
+20,Table 10,Serial,Esophagus,"Include the mucosal, submucosa, and all muscular layers out to the fatty adventitia at least 10 cm superior and inferior to PTV",<5 cm³,48,58,Esophagitis,20|Esophagus,1,20|Esophagus|1
+20,Table 10,Serial,Brachial plexus,"Each side separately from the spinal nerves exiting the neuroforamina from around C5 to T2 to include only the major trunks of the brachial plexus using the subclavian and axillary vessels as a surrogate for identifying its location, extending proximally at the bifurcation of the brachiocephalic trunk into the jugular/subclavian veins (or carotid/subclavian arteries) and following along the route of the subclavian vein to the axillary vein ending after the neurovascular structures cross the second rib",<3 cm³,54,58,Neuropathy,20|Brachial plexus,1,20|Brachial plexus|1
+20,Table 10,Serial,Heart/pericardium,Contoured along with the pericardial sac; the superior aspect (or base) for purposes of contouring will begin at the level of the inferior aspect of the aortic arch (aorto-pulmonary window) and extend inferiorly to the apex of the heart,<15 cm³,46,52,Pericarditis,20|Heart/pericardium,1,20|Heart/pericardium|1
+20,Table 10,Serial,Great vessels,The wall and lumen of the named vessel at least 10 cm superior and inferior to PTV,<10 cm³,60,70,Aneurysm,20|Great vessels,1,20|Great vessels|1
+20,Table 10,Serial,Trachea and large bronchus,"Contour the trachea and cartilage rings starting 10 cm superior to the PTV, extending inferiorly to the bronchi and ending at the first bifurcation of the named lobar bronchus",<5 cm³,58,66,Impairment of pulmonary toilet,20|Trachea and large bronchus,1,20|Trachea and large bronchus|1
+20,Table 10,Serial,Skin,The outer 0.5 cm of the body surface anywhere within the whole body contour.,<10 cm³,60,64,Ulceration,20|Skin,1,20|Skin|1
+20,Table 10,Serial,Stomach,The entire stomach wall and the gastric contents included from the GE junction to the proximal duodenum at the pyloris,<50 cm³,42,54,Ulceration/fistula,20|Stomach,1,20|Stomach|1
+20,Table 10,Serial,Duodenum,The entire duodenal wall and lumen from the pyloris to the duodenojejunal flexure,<5 cm³,42,54,Ulceration,20|Duodenum,1,20|Duodenum|1
+20,Table 10,Serial,Jejunum/ileum,Any and all loops of small bowel as 1 structure within 10 cm of the PTV in any direction,<120 cm³,42,50,Enteritis/obstruction,20|Jejunum/ileum,1,20|Jejunum/ileum|1
+20,Table 10,Serial,Renal hilum/vascular trunk,"Each side separately, including major calyces, renal pelvis, and proximal renal artery medially to the aorta",15 cm³,40,,Malignant hypertension,20|Renal hilum/vascular trunk,1,20|Renal hilum/vascular trunk|1
+20,Table 10,Serial,Colon,One structure including wall and contents of lumen starting 10 cm superior to PTV and ending 10 cm below PTV,<20 cm³,50,66,Colitis/fistula,20|Colon,1,20|Colon|1
+20,Table 10,Serial,Rectum (including stool),One structure including wall of rectum and all contents in lumen; start contouring 10 cm superior to PTV and then inferior to anal sphincter,<10 / <20 / <30 / <40 cm³,66 / 62 / 58 / 54,74,Proctitis/fistula,20|Rectum (including stool),1,20|Rectum (including stool)|1
+20,Table 10,Serial,Bladder (with urine),Contour the bladder wall and all urine ending inferiorly at the base of the prostate,<90 / <125 cm³,60 / 56,66,Cystitis/fistula,20|Bladder (with urine),1,20|Bladder (with urine)|1
+20,Table 10,Serial,Bladder (suprapubic wall),Contour the anterior inferior wall resting above and around the superior aspect of the pubic bone starting at the prostate inferiorly and extending 2-3 cm superiorly from there,<5 cm³,28,52,Dysuria,20|Bladder (suprapubic wall),1,20|Bladder (suprapubic wall)|1
+20,Table 10,Serial,Penile bulb,Contour starting superiorly at the inferior aspect of the pelvic diaphragm (urethral sphincter) and extending inferiorly and anteriorly up to 3 cm,<3 cm³,44,52,Erectile dysfunction,20|Penile bulb,1,20|Penile bulb|1
+20,Table 10,Serial,Femoral heads,Contour both right and left separately,<10 cm³,44,50,Necrosis,20|Femoral heads,1,20|Femoral heads|1
+20,Table 10,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",1500 for males and 950 for females*,18,,Basic lung function,20|Lung (right and left) minus GTV,1,20|Lung (right and left) minus GTV|1
+20,Table 10,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",V-19 Gy,,<37%,Pneumonitis,20|Lung (right and left) minus GTV,2,20|Lung (right and left) minus GTV|2
+20,Table 10,Parallel,Liver minus GTV,"Contour right and left lobes as 1 structure including all parenchymal liver tissue but excluding the GTV and major draining ducts, extrahepatic portal vein, and gall bladder",700*,32,,Basic liver function,20|Liver minus GTV,1,20|Liver minus GTV|1
+20,Table 10,Parallel,Renal cortex (right and left),"Contour right and left kidney as 1 structure, including all parenchymal capsular tissue but excluding the renal hilum/vascular trunk (see above)",200*,26,,Basic renal function,20|Renal cortex (right and left),1,20|Renal cortex (right and left)|1
+20,Table 10,Parallel,Notes / Footnotes,,,,,,20|Notes / Footnotes,1,20|Notes / Footnotes|1
+20,Table 10,Parallel,"* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",,,,,,"20|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",1,"20|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.|1"
+20,Table 10,Parallel,Abbreviations: CT = computed tomography; GTV = gross target volume; PTV = planning target volume; TM = temporomandibular.,,,,,,20|Abbreviations: CT = computed tomography; GTV = gross target volume; PTV = planning target volume; TM = temporomandibular.,1,20|Abbreviations: CT = computed tomography; GTV = gross target volume; PTV = planning target volume; TM = temporomandibular.|1
+30,Table 11,Serial,Optic pathway,"One structure both sides from posterior globe, including chiasm, to proximal optic radiations",<0.5 cm³,44,52,Neuritis,30|Optic pathway,1,30|Optic pathway|1
+30,Table 11,Serial,Eye (retina),"Each side separately, entire globe",Mean dose,<38,45,Retinitis,30|Eye (retina),1,30|Eye (retina)|1
+30,Table 11,Serial,Lens,Each side separately,,,10,Cataract,30|Lens,1,30|Lens|1
+30,Table 11,Serial,"Eyelid, meibomian glands (one side)","Each side separately, upper and lower lid as 1 structure",,,32,Dry eye syndrome,"30|Eyelid, meibomian glands (one side)",1,"30|Eyelid, meibomian glands (one side)|1"
+30,Table 11,Serial,Lacrimal gland (one side),Each side separately,<1 cm³,20,36,Lack of tears,30|Lacrimal gland (one side),1,30|Lacrimal gland (one side)|1
+30,Table 11,Serial,Cochlea,"Each side separately, include at least 3 CT slices",<0.5 cm³,36,40,Hearing loss,30|Cochlea,1,30|Cochlea|1
+30,Table 11,Serial,Brain stem (not medulla),"Superiorly from incisura, midbrain and pons only, 1 structure",<5 cm³,52,60,Cranial neuropathy,30|Brain stem (not medulla),1,30|Brain stem (not medulla)|1
+30,Table 11,Serial,Spinal cord and medulla,For medulla: starting at inferior pons to foramen magnum; for cord: entire bony canal including at least 10 cm superior and inferior to PTV,<5 cm³,47.4,52.8,Myelitis,30|Spinal cord and medulla,1,30|Spinal cord and medulla|1
+30,Table 11,Serial,Salivary gland (one side),Each parotid gland separately,<7 cm³ / mean dose,20 / <26,32,Xerostomia,30|Salivary gland (one side),1,30|Salivary gland (one side)|1
+30,Table 11,Serial,Larynx,"Starting 1 cm above first appearance of true vocal cord, include entire cord, arytenoid muscles, corniculate and arytenoid cartilages, and portions of thyroid cartilage abutting these structures, ending at the first appearance of the cricothyroid ligament",<3 cm³,39,63,Necrosis/edema,30|Larynx,1,30|Larynx|1
+30,Table 11,Serial,TM joint,Each side separately starting at the superior articular surface near the zygoma bone and ending at the notch at the superior part of the ramus of the mandible,<1 cm³,60,65,Inflammation,30|TM joint,1,30|TM joint|1
+30,Table 11,Serial,Cauda equina,Based on the bony limits of the spinal canal starting superiorly at the bottom of the spinal cord (typically around L2) and ending at the inferior extent of the thecal sac (typically S3),<5 cm³,50,60,Neuritis,30|Cauda equina,1,30|Cauda equina|1
+30,Table 11,Serial,Sacral plexus,"Outlining the space defined medially by the sacral foramina from S1-S3, including contouring within the sacral foramina, posteriorly along the limits of the true pelvis, laterally to 2-3 cm lateral to the sacral foramina, and anteriorly about 3-5 mm from the posterior limits of the contour",<5 cm³,50,60,Neuropathy,30|Sacral plexus,1,30|Sacral plexus|1
+30,Table 11,Serial,Esophagus,"Include the mucosal, submucosa, and all muscular layers out to the fatty adventitia at least 10 cm superior and inferior to PTV",<5 cm³,51,60,Esophagitis,30|Esophagus,1,30|Esophagus|1
+30,Table 11,Serial,Brachial plexus,"Each side separately from the spinal nerves exiting the neuroforamina from around C5 to T2 to include only the major trunks of the brachial plexus, using the subclavian and axillary vessels as a surrogate for identifying its location, extending proximally at the bifurcation of the brachiocephalic trunk into the jugular/subclavian veins (or carotid/subclavian arteries) and following along the route of the subclavian vein to the axillary vein ending after the neurovascular structures cross the second rib",<3 cm³,62,66,Neuropathy,30|Brachial plexus,1,30|Brachial plexus|1
+30,Table 11,Serial,Heart/pericardium,Contoured along with the pericardial sac; the superior aspect (or base) for purposes of contouring will begin at the level of the inferior aspect of the aortic arch (aorto-pulmonary window) and extend inferiorly to the apex of the heart,<15 cm³ / <20% total heart volume,60 / 40,68,"Pericarditis, heart problems",30|Heart/pericardium,1,30|Heart/pericardium|1
+30,Table 11,Serial,Great vessels,The wall and lumen of the named vessel at least 10 cm superior and inferior to PTV,<10 cm³,60,76,Aneurysm,30|Great vessels,1,30|Great vessels|1
+30,Table 11,Serial,Trachea and large bronchus,"Contour the trachea and cartilage rings starting 10 cm superior to the PTV, extending inferiorly to the bronchi, ending at the first bifurcation of the named lobar bronchus",<5 cm³,60,69,Impairment of pulmonary toilet,30|Trachea and large bronchus,1,30|Trachea and large bronchus|1
+30,Table 11,Serial,Skin,The outer 0.5 cm of the body surface anywhere within the whole body contour,<10 cm³,70,76,Ulceration,30|Skin,1,30|Skin|1
+30,Table 11,Serial,Stomach,The entire stomach wall and the gastric contents included from the GE junction to the proximal duodenum at the pyloris,<50 cm³,45,60,Ulceration/fistula,30|Stomach,1,30|Stomach|1
+30,Table 11,Serial,Duodenum,The entire duodenal wall and lumen from the pyloris to the duodenojejunal flexure,<5 cm³,45,60,Ulceration,30|Duodenum,1,30|Duodenum|1
+30,Table 11,Serial,Jejunum/ileum,Any and all loops of small bowel as 1 structure within 10 cm of the PTV in any direction,<120 cm³,45,54,Enteritis/obstruction,30|Jejunum/ileum,1,30|Jejunum/ileum|1
+30,Table 11,Serial,Renal hilum/vascular trunk,"Each side separately, including major calyces, renal pelvis, and proximal renal artery medially to the aorta",15 cm³,42,,Malignant hypertension,30|Renal hilum/vascular trunk,1,30|Renal hilum/vascular trunk|1
+30,Table 11,Serial,Colon,"One structure, including wall and contents of lumen starting 10 cm superior to PTV and ending 10 cm below PTV",<20 cm³,54,70,Colitis/fistula,30|Colon,1,30|Colon|1
+30,Table 11,Serial,Rectum (including stool),"One structure, including wall of rectum and all contents in lumen; start contouring 10 cm superior to PTV then inferior to anal sphincter",<10 / <20 / <30 / <40 cm³,75 / 70 / 65 / 60,79,Proctitis/fistula,30|Rectum (including stool),1,30|Rectum (including stool)|1
+30,Table 11,Serial,Bladder (with urine),"Contour the bladder wall and all urine, ending inferiorly at the base of the prostate",<90 / <150 cm³,70 / 65,79,Cystitis/fistula,30|Bladder (with urine),1,30|Bladder (with urine)|1
+30,Table 11,Serial,Bladder (suprapubic wall),Contour the anterior inferior wall resting above and around the superior aspect of the pubic bone starting at the prostate inferiorly and extending 2-3 cm superiorly from there,<5 cm³,30,60,Dysuria,30|Bladder (suprapubic wall),1,30|Bladder (suprapubic wall)|1
+30,Table 11,Serial,Penile bulb,Contour starting superiorly at the inferior aspect of the pelvic diaphragm (urethral sphincter) and extending inferiorly and anteriorly up to 3 cm,<3 cm³,48,56,Erectile dysfunction,30|Penile bulb,1,30|Penile bulb|1
+30,Table 11,Serial,Femoral heads,Contour both right and left separately,<10 cm³,48,56,Necrosis,30|Femoral heads,1,30|Femoral heads|1
+30,Table 11,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",1500 for males and 950 for females*,18,,Basic lung function,30|Lung (right and left) minus GTV,1,30|Lung (right and left) minus GTV|1
+30,Table 11,Parallel,Lung (right and left) minus GTV,"Contour right and left lung as 1 structure, including all parenchymal lung tissue but excluding the GTV and major airways (trachea and main/lobar bronchi)",V-20 Gy,,<37%,Pneumonitis,30|Lung (right and left) minus GTV,2,30|Lung (right and left) minus GTV|2
+30,Table 11,Parallel,Liver minus GTV,"Contour right and left lobes as 1 structure, including all parenchymal liver tissue but excluding the GTV and major draining ducts, extrahepatic portal vein, and gall bladder",700*,36,,Basic liver function,30|Liver minus GTV,1,30|Liver minus GTV|1
+30,Table 11,Parallel,Renal cortex (right and left),"Contour right and left kidney as 1 structure, including all parenchymal capsular tissue but excluding the renal hilum/vascular trunk (see above)",200*,27,,Basic renal function,30|Renal cortex (right and left),1,30|Renal cortex (right and left)|1
+30,Table 11,Parallel,Notes / Footnotes,,,,,,30|Notes / Footnotes,1,30|Notes / Footnotes|1
+30,Table 11,Parallel,"* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",,,,,,"30|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.",1,"30|* One-third of the “native” total organ volume (before any resection or volume reducing disease), whichever is greater.|1"
