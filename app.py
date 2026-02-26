@@ -3,7 +3,7 @@ import streamlit as st
 from datetime import date
 
 APP_TITLE = "Timmerman Constraint Finder"
-VERSION = "Vcc1.1"
+VERSION = "Vcc1.2"
 DATA_FILE = "timmerman_constraints.csv"
 DISCLAIMER = (
     "Disclaimer: This tool is provided for reference and convenience only. "
@@ -17,7 +17,6 @@ st.set_page_config(page_title=APP_TITLE, layout="wide")
 def load_data():
     df = pd.read_csv(DATA_FILE)
     df["Contouring instructions"] = df["Contouring instructions"].fillna("Not given")
-    # normalize tissue strings
     df["Tissue"] = df["Tissue"].astype(str).str.strip()
     df["Type"] = df["Type"].astype(str).str.strip()
     return df
@@ -37,14 +36,24 @@ st.divider()
 fractions = sorted(df["Fractions"].dropna().unique().tolist())
 fraction = st.selectbox("How many fractions?", options=fractions, index=fractions.index(3) if 3 in fractions else 0)
 
-df_fx = df[df["Fractions"] == fraction].copy()
+# Correct logic: always include parallel organs
+df_serial = df[(df["Fractions"] == fraction) & (df["Type"].str.lower() == "serial")]
+df_parallel = df[df["Type"].str.lower() == "parallel"]
+df_fx = pd.concat([df_serial, df_parallel], ignore_index=True)
 
-# Optional filter
+# Radio filter AFTER merge
 type_filter = st.radio("Show", options=["All", "Serial only", "Parallel only"], horizontal=True)
 if type_filter == "Serial only":
     df_fx = df_fx[df_fx["Type"].str.lower() == "serial"]
 elif type_filter == "Parallel only":
     df_fx = df_fx[df_fx["Type"].str.lower() == "parallel"]
+
+# Remove footnotes and non-organ entries
+df_fx = df_fx[
+    ~df_fx["Tissue"].str.contains("Abbreviations", case=False, na=False) &
+    ~df_fx["Tissue"].str.startswith("*", na=False)
+]
+df_fx = df_fx[df_fx["Tissue"].str.strip() != ""]
 
 oars = sorted(df_fx["Tissue"].dropna().unique().tolist())
 oar = st.selectbox("Select OAR / Structure", options=oars)
@@ -60,8 +69,3 @@ for c in show_cols:
 
 st.subheader("Constraints")
 st.dataframe(df_oar[show_cols].reset_index(drop=True), use_container_width=True, hide_index=True)
-
-with st.expander("Show raw rows (debug)"):
-    st.write("Row counts in data:")
-    st.json({'Serial': 272, 'Parallel': 51})
-    st.dataframe(df_oar.reset_index(drop=True), use_container_width=True, hide_index=True)
