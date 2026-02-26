@@ -4,7 +4,7 @@ from datetime import date
 
 APP_TITLE = "Timmerman Constraint Finder"
 VERSION = "Vcc1.2"
-DATA_FILE = "timmerman_constraints_vcc12.csv"
+DATA_FILE = "timmerman_constraints_vcc.csv"
 DISCLAIMER = (
     "Disclaimer: This tool is provided for reference and convenience only. "
     "It does not replace clinical judgment, institutional policies, or peer review. "
