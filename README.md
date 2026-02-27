@@ -1,7 +1,8 @@
-# Timmerman Constraint Finder — Vcc1.4
+# Timmerman Constraint Finder — Vcc1.5
 
-Adds:
-- Subtle styling cue: Serial vs Parallel row shading
-- Export selected OAR constraints to PDF (download button)
+PDF export refinements:
+- Uses **landscape letter** for wider tables
+- Tight margins + tuned column widths
+- Wrapped text via ReportLab Paragraphs so it fits page width
 
 Data extracted on: 2026-02-27
