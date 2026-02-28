@@ -1,8 +1,9 @@
-# Timmerman Constraint Finder — Vcc1.3
+# Timmerman Constraint Finder — Vcc1.7
 
-Fixes vs Vcc1.2:
-- 'All' shows Serial + Parallel **for the selected fractions only**
-- Parallel-only now only shows the 3 true parallel organs (Lung, Liver, Renal cortex) per fraction set
-- Footnote / Abbreviations lines removed from the dropdown and data
+Desktop refinements:
+- Restores `layout="wide"` desktop view
+- Removes 'Contouring instructions' from on-screen table
+- Uses `st.table()` (static) to avoid scrollbars; text wraps to fit width
+- PDF export unchanged (still includes contouring instructions)
 
-Data extracted on: 2026-02-26
+Data extracted on: 2026-02-28
