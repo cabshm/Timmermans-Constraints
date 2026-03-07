@@ -3,8 +3,8 @@ import pandas as pd
 import streamlit as st
 from datetime import date
 
-APP_TITLE = "Timmerman Constraint Finder"
-VERSION = "Vcc1.9"
+APP_TITLE = "Timmerman Organ-at-Risk Constraint Finder"
+VERSION = "Vcc1.9 Based on Timmerman's A Story of Hypofractionation and the Table on the Wall." 
 DATA_FILE = "timmerman_constraints.csv"
 DISCLAIMER = (
     "Disclaimer: This tool is provided for reference and convenience only. "
